@@ -21,7 +21,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("trabajos")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://frontendevelynp.web.app")
 @Transactional
 public class CTrabajos {
     @Autowired SvTrabajos servtrab;

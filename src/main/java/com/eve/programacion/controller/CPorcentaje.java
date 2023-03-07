@@ -20,7 +20,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("porcentaje")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://frontendevelynp.web.app")
 @Transactional
 public class CPorcentaje {
     @Autowired SvPorcentaje servpor;
