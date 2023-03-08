@@ -46,13 +46,13 @@ public class CtrlSobreMi {
         return "Sobre mí fue borrado correctamente";
     }
     
-  @PutMapping("/editar/{id}")
-	public SobreMi updateSobreMi(@PathVariable("id") int id, @RequestBody SobreMi sobremi) {
-			SobreMi _sobre = intsm.findSobreMi(id);
-                        _sobre.setImagen(sobremi.getImagen());
-			_sobre.setTexto(sobremi.getTexto());
-			intsm.saveSobreMi(_sobre);
-                        return _sobre;
+ @PutMapping("/editar/{id}")
+	public SobreMi updatePorcentaje(@PathVariable("id") int id, @RequestBody SobreMi sobremi) {
+			SobreMi _sm = intsm.findSobreMi(id);
+                        _sm.setImagen(sobremi.getImagen());
+			_sm.setTexto(sobremi.getTexto());
+			intsm.saveSobreMi(_sm);
+                        return _sm;
 		
 	}
     

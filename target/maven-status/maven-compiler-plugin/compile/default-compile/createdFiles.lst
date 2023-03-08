@@ -7,6 +7,7 @@ com\eve\programacion\repository\Rexperiencia.class
 com\eve\programacion\security\dto\JwtDto.class
 com\eve\programacion\controller\CEstudios.class
 com\eve\programacion\entity\SobreMi.class
+com\eve\programacion\service\EmailService.class
 com\eve\programacion\repository\RTrabajos.class
 com\eve\programacion\security\service\RolService.class
 com\eve\programacion\service\ImpPersonaService.class
