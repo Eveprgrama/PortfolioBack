@@ -19,7 +19,7 @@ public class EmailService {
 
     public void sendEmail(ContactForm email) throws MailException {
         SimpleMailMessage mail = new SimpleMailMessage();
-        mail.setTo("marioluarca7@gmail.com");
+        mail.setTo("evelynpenfold94@gmail.com");
         mail.setFrom(email.getEmail());
         mail.setSubject("Contacto: "+ email.getName());
         mail.setText(email.getMessage());
